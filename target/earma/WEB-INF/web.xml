@@ -1,0 +1,46 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>AddDepositServlet</servlet-name>
+        <servlet-class>AddDepositServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddDepositServlet</servlet-name>
+        <url-pattern>/addDeposit</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddDistributionServlet</servlet-name>
+        <servlet-class>AddDistributionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddDistributionServlet</servlet-name>
+        <url-pattern>/addDistribution</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddWithdrawalServlet</servlet-name>
+        <servlet-class>AddWithdrawalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddWithdrawalServlet</servlet-name>
+        <url-pattern>/addWithdrawal</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAccountServlet</servlet-name>
+        <servlet-class>AddAccountServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddAccountServlet</servlet-name>
+        <url-pattern>/addAccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccountHistoryServlet</servlet-name>
+        <servlet-class>AccountHistoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountHistoryServlet</servlet-name>
+        <url-pattern>/history</url-pattern>
+    </servlet-mapping>
+</web-app>
