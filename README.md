@@ -1,0 +1,2 @@
+# earma
+Earma investment calculator
